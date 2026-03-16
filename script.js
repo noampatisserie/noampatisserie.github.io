@@ -305,3 +305,25 @@ navLinks.addEventListener('keydown', (e) => {
 
 console.log('%c🐙 Noam Pâtisserie Website', 'font-size: 20px; color: #8B6F47; font-weight: bold;');
 console.log('%cBuilt with ❤️ by Joni', 'font-size: 14px; color: #D4AF37;');
+// ==========================================
+// BACK TO TOP BUTTON
+// ==========================================
+
+const backToTopBtn = document.getElementById('backToTop');
+
+// Show/hide button based on scroll position
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 500) {
+        backToTopBtn.classList.add('show');
+    } else {
+        backToTopBtn.classList.remove('show');
+    }
+});
+
+// Scroll to top smoothly when clicked
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
