@@ -1066,9 +1066,10 @@ h1, h2, h3, h4, h5, h6 {
    FOOTER
    ========================================== */
 .footer {
-    padding: 60px 0 32px;
+    padding: 60px 0 24px;
     background: var(--secondary);
     color: var(--white);
+    margin: 0;
 }
 
 .footer-content {
@@ -1127,7 +1128,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-bottom p {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 16px;
+    margin: 0;
 }
 
 .version-control {
