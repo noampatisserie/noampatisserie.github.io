@@ -1158,7 +1158,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================== */
 .whatsapp-float {
     position: fixed;
-    bottom: 32px;
+    bottom: 100px;
     left: 32px;
     width: 64px;
     height: 64px;
@@ -1286,7 +1286,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .whatsapp-float {
-        bottom: 24px;
+        bottom: 80px;
         left: 24px;
         width: 56px;
         height: 56px;
