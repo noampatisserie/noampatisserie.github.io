@@ -1127,6 +1127,30 @@ h1, h2, h3, h4, h5, h6 {
 .footer-bottom p {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 16px;
+}
+
+.version-control {
+    margin-top: 16px;
+}
+
+.version-control a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: var(--transition);
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.version-control a:hover {
+    color: var(--accent);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
 }
 
 /* ==========================================
