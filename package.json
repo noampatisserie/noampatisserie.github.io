@@ -1,0 +1,21 @@
+{
+  "name": "noam-patisserie-website",
+  "version": "1.0.0",
+  "description": "Premium website for Noam Pâtisserie - Boutique bakery in Netanya",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "bakery",
+    "patisserie",
+    "website",
+    "netanya",
+    "pastries",
+    "desserts",
+    "premium"
+  ],
+  "author": "Joni AI",
+  "license": "MIT"
+}

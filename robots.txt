@@ -1,0 +1,19 @@
+# Robots.txt for Noam Pâtisserie
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yoursite.com/sitemap.xml
+
+# Common crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow admin areas (if added in future)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
