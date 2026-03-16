@@ -91,6 +91,18 @@ tabButtons.forEach(button => {
         
         const category = button.getAttribute('data-category');
         
+        // Scroll down to show the menu items
+        const menuGrid = document.querySelector('.menu-grid');
+        if (menuGrid) {
+            setTimeout(() => {
+                const menuGridTop = menuGrid.offsetTop - 150; // 150px offset to show items nicely
+                window.scrollTo({
+                    top: menuGridTop,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        }
+        
         // Filter menu items with smooth animation
         menuItems.forEach((item, index) => {
             item.style.opacity = '0';
