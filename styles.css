@@ -589,9 +589,11 @@ h1, h2, h3, h4, h5, h6 {
 .menu-item-image {
     position: relative;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 0;
+    height: 0;
     background: linear-gradient(135deg, var(--bg-cream), var(--bg-light));
     overflow: hidden;
+    display: none;
 }
 
 .menu-item:hover .menu-item-image img {
