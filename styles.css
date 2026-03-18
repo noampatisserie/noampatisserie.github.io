@@ -665,6 +665,30 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.5px;
 }
 
+.btn-add-cart {
+    padding: 8px 16px;
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-add-cart:hover {
+    background: var(--accent-dark);
+    transform: translateY(-2px);
+}
+
+.btn-add-cart i {
+    font-size: 1rem;
+}
+
 /* Filter Animation */
 .menu-item.hidden {
     display: none;
