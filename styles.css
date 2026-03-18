@@ -620,21 +620,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-item-content {
-    padding: 16px;
+    padding: 12px;
 }
 
 .menu-item-title {
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     color: var(--secondary);
 }
 
 .menu-item-description {
     font-size: 0.95rem;
     color: var(--text-medium);
-    margin-bottom: 12px;
-    line-height: 1.6;
+    margin-bottom: 8px;
+    line-height: 1.5;
 }
 
 .menu-item-footer {
